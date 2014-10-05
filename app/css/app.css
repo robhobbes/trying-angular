@@ -1,0 +1,42 @@
+body{
+	margin-top: 15px;
+	padding: 5px;
+}
+
+.user-controls{
+	margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+	.user-controls{
+		width: 500px;
+	}
+
+	.user-info{
+		width: 768px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.user-controls{
+		width: 500px;
+	}
+
+	.user-info{
+		width: 100%;
+	}
+}
+
+@media (max-width: 499px) {
+
+	.user-controls{
+		width: 100%;
+	}
+
+}
+
+.form-info{
+	padding: 10px;
+	border-radius: 4px;
+}
